@@ -2,19 +2,19 @@ package com.serenitydojo;
 
 public class Hamster extends Pet {
 
-    private String favouriteGame;
+    private String favoriteGame;
 
-    public String getFavouriteGame() {
-        return favouriteGame;
+    public String getFavoriteGame() {
+        return favoriteGame;
     }
 
-    public void setFavouriteGame(String favouriteGame) {
-        this.favouriteGame = favouriteGame;
+    public void setFavoriteGame(String favoriteGame) {
+        this.favoriteGame = favoriteGame;
     }
 
-    public Hamster(String name, int age, String favouriteGame) {
+    public Hamster(String name, int age, String favoriteGame) {
         super(name, age);
-        this.favouriteGame = favouriteGame;
+        this.favoriteGame = favoriteGame;
     }
     public String play(){
         return "runs in wheel";
